@@ -1,0 +1,162 @@
+.content .page-body {
+    padding: 20px;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.myTable > thead > tr > th, .myTable > tbody > tr > th, .myTable > tfoot > tr > th{
+	color: #555;
+	background-color:#fff!important;
+}
+.myTable > thead > tr > th, .myTable > tbody > tr > th, .myTable > tfoot > tr > th, .myTable > thead > tr > td, .myTable > tbody > tr > td, .myTable > tfoot > tr > td {
+    color: #666;
+}
+.myTable > thead > tr > th.myth, .myTable > tbody > tr > th.myth, .myTable > tfoot > tr > th.myth, .myTable > thead > tr > td.mytd, .myTable > tbody > tr > td.mytd, .myTable > tfoot > tr > td.mytd {
+	color: #666;
+    padding: 2px;
+}
+.myTable > thead > tr > th.myth4, .myTable > tbody > tr > th.myth4, .myTable > tfoot > tr > th.myth4, .myTable > thead > tr > td.mytd4, .myTable > tbody > tr > td.mytd4, .myTable > tfoot > tr > td.mytd4 {
+	color: #666;
+    padding: 6px 4px  3px 4px;
+}
+.myTable > thead > tr > th.myth6, .myTable > tbody > tr > th.myth6, .myTable > tfoot > tr > th.myth6, .myTable > thead > tr > td.td6, .myTable > tbody > tr > td.td6, .myTable > tfoot > tr > td.td6 {
+	color: #666;
+    padding: 6px;
+}
+
+.myTable td,.myTable th {
+    text-align: center; 
+    vertical-align: middle;
+}
+
+.table>thead>tr>th {
+    border-bottom: 1px solid #628fad!important;
+}
+.table>tbody>tr>td.input {
+	padding: 5px;
+}
+
+
+.panel.panel-inverse{
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.4);
+}
+.panel.panel-inverse > .panel-heading {
+	background-color: #242a30;
+	border-color: rgba(0, 0, 0, 0.8);
+	font-size: 13px;
+	color: #fff;
+}
+
+.ImgUploader {
+    cursor: pointer;
+}
+
+#imgbox {
+    top:0; 
+    left:0; 
+    width:100%; 
+    height:100%; 
+	background:rgba(255,255,255,0.9);  
+    text-align:center;
+	display:none;
+	z-index:100;
+    cursor: pointer;
+    position:fixed;
+}
+#imgbox p {
+    text-align: center;
+    color: #fff;
+    margin-right: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+    z-index: 150;
+    background-color: red;
+    right: 0px;
+    position: fixed;
+    padding: 2px 7px;
+}
+#imgbox img {
+    box-shadow:0 0 25px #111;
+    border-radius: 5px;
+    -webkit-box-shadow:0 0 25px #111;
+    -moz-box-shadow:0 0 25px #111;
+    max-width:940px;
+	margin: 25px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.form-control {
+    padding: 6px 8px;
+}
+
+.b {font-weight: bold;}
+.w10 { min-width:10px;	 max-width:10px; 	width:10px;}
+.w20 { min-width:20px;	 max-width:20px; 	width:20px;}
+.w25 { min-width:25px;	 max-width:25px; 	width:25px;}
+.w28 { min-width:28px;	 max-width:28px; }
+.w30 { min-width:30px;	 max-width:30px; 	width:30px;}
+.w35 { min-width:35px;	 max-width:35px; }
+.w40 { min-width:40px;	 max-width:40px; 	width:40px;}
+.w50 { min-width:50px;	 max-width:50px; 	width:50px;}
+.w55 { min-width:55px;	 max-width:55px; 	width:55px;}
+.w60 { min-width:60px;	 max-width:60px;	width:60px; }
+.w65 { min-width:65px;	 max-width:65px;	width:65px; }
+.w70 { min-width:70px;	 max-width:70px;	width:70px; }
+.w75 { min-width:75px;	 max-width:75px;	width:75px; }
+.w80 { min-width:80px;	 max-width:80px; 	width:80px; }
+.w85 { min-width:85px;	 max-width:85px; }
+.w90 { min-width:90px;	 max-width:90px;	width:90px; }
+.w95 { min-width:95px;	 max-width:95px;	width:95px; }
+.w100 { min-width:100px;	 max-width:100px;	width:100px;}
+.w105 { min-width:105px;	 max-width:105px; }
+.w110 { min-width:110px;	 max-width:110px;	width:110px;}
+.w115 { min-width:115px;	 max-width:115px;	width:115px;}
+.w120{ min-width:120px;	 max-width:120px; 	width:120px;}
+.w125 { min-width:125px;	 max-width:125px; 	width:125px;}
+.w130 { min-width:130px;	 max-width:130px; 	width:130px;}
+.w140 { min-width:140px;	 max-width:140px; 	width:140px;}
+.w150 { min-width:150px;	 max-width:150px; 	width:150px;}
+.w155 { min-width:155px;	 max-width:155px; 	width:155px;}
+.w160 { min-width:160px;	 max-width:160px; 	width:160px;}
+.w165 { min-width:165px;	 max-width:165px; 	width:165px;}
+.w175 { min-width:175px;	 max-width:175px; 	width:175px;}
+.w180 { min-width:180px;	 max-width:180px; 	width:180px;}
+.w190 { min-width:190px;	 max-width:190px; 	width:190px;}
+.w200 { min-width:200px;	 max-width:200px; 	width:200px;}
+.w210 { min-width:210px;	 max-width:210px; 	width:210px;}
+.w220 { min-width:220px;	 max-width:220px; 	width:220px;}
+.w225 { min-width:225px;	 max-width:225px;	width:225px;}
+.w230 { min-width:230px;	 max-width:230px;	width:230px;}
+.w240 { min-width:240px;	 max-width:240px; }
+.w250 { min-width:250px;	 max-width:250px; }
+.w260 { min-width:260px;	 max-width:260px; }
+.w275 { min-width:275px;	 max-width:275px; }
+.w280 { min-width:280px;	 max-width:280px; }
+.w290 { min-width:290px;	 max-width:290px; }
+.w300 { min-width:300px;	 max-width:300px; }
+.w310 { min-width:310px;	 max-width:310px; }
+.w320 { min-width:320px;	 max-width:320px; }
+.w340 { min-width:340px;	 max-width:340px; }
+.w350 { min-width:350px;	 max-width:350px; }
+.w360 { min-width:360px;	 max-width:360px; }
+.w380 { min-width:380px;	 max-width:380px; }
+.w390 { min-width:390px;	 max-width:390px; }
+.w400 { min-width:400px;	 max-width:400px; }
+.w450 { min-width:450px;	 max-width:450px; }
+.w500 { min-width:500px;	 max-width:500px; }
+.w550 { min-width:550px;	 max-width:550px; }
+.w600 { min-width:600px;	 max-width:600px; }
+.w700 { min-width:700px;	 max-width:700px; }
